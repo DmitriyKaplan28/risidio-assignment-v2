@@ -10,8 +10,13 @@
       <h3>Artist Name</h3>
 
     <div class="description">
-      <p>Description of the NFT / collectable - Examples such the content of NFTs, specific themes of the collection, quotations by the creator, the meaning behind the creation of this piece…</p>
-      <p :class="isActive ? 'shown' : 'hidden'">Description of this collection - - Examples such the content of NFTs, specific themes of the collection, quotations by the creator, the meaning behind the creation of this collection etc Description of this collection - - Examples such the content of NFTs, specific themes of the collection, quotations by the creator, the meaning behind the creation of this collection etcDescription of this collection - - Examples such the content of NFTs, specific themes of the collection, quotations by the creator, the meaning behind the creation of this collection etc</p>
+<!--      <p>Description of the NFT / collectable - Examples such the content of NFTs, specific themes of the collection, quotations by the creator, the meaning behind the creation of this piece…</p>-->
+      <Description/>
+
+<!--      <p :class="isActive ? 'shown' : 'hidden'">Description of this collection - - Examples such the content of NFTs, specific themes of the collection, quotations by the creator, the meaning behind the creation of this collection etc Description of this collection - - Examples such the content of NFTs, specific themes of the collection, quotations by the creator, the meaning behind the creation of this collection etcDescription of this collection - - Examples such the content of NFTs, specific themes of the collection, quotations by the creator, the meaning behind the creation of this collection etc</p>-->
+      <p :class="isActive ? 'shown' : 'hidden'"><FullDescription/></p>
+
+
       <button @click="openDescription">{{isActive ? 'Hide' : 'Read More'}}</button>
     </div>
 
@@ -41,12 +46,24 @@
 
 <script>
 
+/*import {usePrismic} from "@prismicio/vue";
+
+const prismic = usePrismic();*/
+
+import Description from '@/components/homepage/Description/Description'
+import FullDescription from '@/components/homepage/Description/FullDescription'
+
 export default {
   name: 'HomeSection1',
   data () {
     return{
       isActive: false,
     }
+  },
+
+  components: {
+    Description,
+    FullDescription
   },
 
   methods: {
