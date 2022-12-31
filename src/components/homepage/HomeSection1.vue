@@ -16,8 +16,8 @@
 <!--      <p :class="isActive ? 'shown' : 'hidden'">Description of this collection - - Examples such the content of NFTs, specific themes of the collection, quotations by the creator, the meaning behind the creation of this collection etc Description of this collection - - Examples such the content of NFTs, specific themes of the collection, quotations by the creator, the meaning behind the creation of this collection etcDescription of this collection - - Examples such the content of NFTs, specific themes of the collection, quotations by the creator, the meaning behind the creation of this collection etc</p>-->
       <p :class="isActive ? 'shown' : 'hidden'"><FullDescription/></p>
 
-
       <button @click="openDescription">{{isActive ? 'Hide' : 'Read More'}}</button>
+
     </div>
 
     <div class="sections">
