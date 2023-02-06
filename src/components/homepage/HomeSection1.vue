@@ -13,7 +13,6 @@
 
       <Description/>
 
-
       <p :class="isActive ? 'shown' : 'hidden'"><FullDescription/></p>
 
       <button @click="openDescription">{{isActive ? 'Hide' : 'Read More'}}</button>
