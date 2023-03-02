@@ -1,6 +1,5 @@
 import { createPrismic } from "@prismicio/vue";
 
-
 const prismic = createPrismic({
     endpoint: "risidio-assignment",
     clientConfig: {
