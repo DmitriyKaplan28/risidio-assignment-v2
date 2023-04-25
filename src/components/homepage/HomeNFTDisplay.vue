@@ -6,18 +6,14 @@
     </div>
 
     <div>
-
         <div v-if="NFTs && NFTs.length > 0" class="row collection-container">
             <div v-for="(item, index) in NFTs" :key="index" :class="'col-md-' + col ">
-
               <NFTItem :item="item" />
             </div>
         </div>
 
         <div v-else  class="row collection-container">
-
             <div v-for="(item, index) in GenerateNFTData" :key="index" :class="'col-md-' + col" >
-
               <NFTItem :item="item" />
             </div>
         </div>

@@ -5,7 +5,6 @@ const prismic = createPrismic({
     clientConfig: {
         defaultParams: {
             routes: [
-                /*{type: "home", path: "/"},*/
                 {type: "description", path: "/description"},
                 {type: "full_description", path: "/full_description"},
             ]
