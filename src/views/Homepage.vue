@@ -1,9 +1,7 @@
 <template>
     <div>
-
         <HomeSection1/>
         <HomeNFTDisplay/>
-
     </div>
 </template>
 
