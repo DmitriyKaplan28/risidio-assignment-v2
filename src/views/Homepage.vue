@@ -14,7 +14,7 @@ import HomeNFTDisplay from '@/components/homepage/HomeNFTDisplay.vue'
 export default {
   name: 'Homepage',
   components: {
-    HomeSection1, // Add your components
+    HomeSection1,
     HomeNFTDisplay
   }
 }
