@@ -1,11 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-
-// You do not need to do any routing for this test! :))
-// That said, we appreciate the curiosity
-
-// Views
 import Homepage from '../views/Homepage'
-
 
 const routes = [
     {
