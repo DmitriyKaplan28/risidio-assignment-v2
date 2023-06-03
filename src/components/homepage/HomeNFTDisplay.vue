@@ -17,7 +17,6 @@
               <NFTItem :item="item" />
             </div>
         </div>
-
     </div>
 
     <div class="collection">
