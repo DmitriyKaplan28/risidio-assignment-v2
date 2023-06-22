@@ -6,6 +6,7 @@
 
 
 <script setup>
+
 import {useSinglePrismicDocument} from "@prismicio/vue";
 
 const fullDescription = useSinglePrismicDocument('full_description')
