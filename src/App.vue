@@ -6,7 +6,7 @@
 
 </template>
 
-
+//test mobile commit
 <script>
 
 import Footer from '@/components/layout/Footer.vue'
